@@ -1,0 +1,541 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+.tong{
+   background-color:#003a6a;
+    width:100%;
+    margin:auto;
+    position: relative;
+   
+}
+.tong .chadau{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width:1550px;
+    margin: auto;
+    padding: 30px 100px;
+    
+}
+.tong .chadau .logomenu a i:hover{
+   color: yellow;
+     
+}
+.tong .chadau .top{
+    width:33.33%;
+padding-top:30px;
+box-sizing: border-box;
+}
+.tong .chadau .bottom{
+    width:33.33%;
+display: flex;
+margin:auto;
+}
+.tong .chadau .end{
+    width:33.33%;
+    text-align: right;
+    float: right;
+     margin-top:15px;
+   
+    
+}
+.chadau .end .end_list .phai a i:hover{
+    color:yellow;
+}
+.chadau .end .end_list .list ul{
+    list-style: none;
+      display: flex;
+      float: right;
+     
+}
+.chadau .end .end_list .list ul a li:hover{
+   color:yellow;
+     
+}
+.chadau .end .end_list .list ul li{
+   padding:0 10px;
+   color:rgb(53, 132, 138);
+   box-sizing: border-box;
+}
+.tong .chadau .end .end_list .phai{
+     float: right;
+     text-align: right;
+      width:200px;
+      height:29px;
+      background-color:rgb(13, 79, 155);
+      border: 1px solid rgb(53, 132, 138);
+      display: flex;
+     position: relative;
+  }
+  .tong .chadau .end .end_list .list{
+   width:65%;
+   float: right;
+   margin-bottom: 20px;
+    
+ }
+  .chadau .top .phan1{
+    
+      width:50%;
+  }
+  .chadau .top .phan1 a i:hover{
+      color:yellow;
+
+  }
+  .chadau .top .phan2 a i:hover{
+    color:yellow;
+
+}
+ .chadau .bottom .text{
+
+    margin-left:20px;
+    text-align: center;
+    padding-top:10px;
+ }
+ .chadau .bottom .text a p{
+     font-size: 14px;
+     text-decoration: none;
+    color:rgb(53, 132, 138);
+    
+ }
+ .chadau .bottom .text a p:hover{
+  
+   color:yellow;
+}
+.chadau .top .phan1 i{
+
+    color:white;
+    margin-right: 10px;
+
+}
+.chadau .top .phan1 span{
+
+    color:rgb(53, 132, 138);
+
+}
+.chadau .top .phan2 i{
+
+    color:white;
+    margin-right: 10px;
+
+}
+.chadau .top .phan2 span{
+
+    color:rgb(53, 132, 138);
+
+}
+.chadau .bottom .text span{
+     font-size: 20px;
+       color: white;
+       line-height: 25px;
+      
+}
+.chadau .bottom .text p{
+    color:rgb(53, 132, 138);
+    height:30px;
+    line-height: 30px;
+   
+}
+ .chadau .end .end_list .phai i{
+   color:white;
+      margin-right:10px;
+      box-sizing: border-box;
+      text-align: center;
+      justify-content: center;
+      padding-top:6px;
+      padding-left:4px;
+ }
+ .chadau .end .end_list .phai input{
+    background-color:rgb(13, 79, 155);
+      border: none;
+      text-align: right;
+      
+     
+  }
+
+  .tong .chacuoi{
+       background-color: #004884;
+       width:1300px;
+       height:40px;
+       margin:auto;
+       box-sizing: border-box;
+       
+  }
+  .chacuoi .con{
+   display: flex;
+    width:100%;
+    height:40px;
+       line-height: 40px; 
+  }
+ 
+ .con .contrai >ul{
+         
+        display: flex; 
+       list-style: none;
+
+ }
+ .con .contrai > ul > li a{
+    text-decoration: none;
+   
+}
+._1item{
+    position: relative;
+    line-height: 40px;
+    height:40px;
+   
+}
+._1item  a.layer1{
+    color:white;
+    padding:0px 20px;
+
+}
+._1item:hover a.layer1{
+   color:yellow;
+ 
+ 
+ }
+ ._1item .layer2 ul{
+
+   list-style: none;
+ }
+ ._1item .layer2{
+    position: absolute;
+     top:40px;
+     left:0px;
+     opacity: 0;
+     visibility: hidden;
+     transition: 0.4s;
+     border: 1px solid gray;
+     width:200px;
+ } 
+ ._1item:hover .layer2{
+    visibility:visible;
+    opacity: 1;
+  
+} 
+._1item .layer2 ul li a{
+    width:200px;
+      border-bottom: 1px solid gray;
+      box-sizing: border-box;
+      display: block;
+       background-color: rgb(6, 65, 121);
+       color: white;
+ } 
+ ._1item .layer2 ul li a:hover{
+   color:yellow;
+    
+   } 
+._1item  a.layer1 .fa-home{
+    color:white;
+  
+}
+._1item  a.layer1 .fa-home:hover{
+    color:yellow;
+  
+}
+.chacuoi .con .contrai {
+    float: left;
+    width:60%;
+    display: flex;
+ }
+ .chacuoi .con .conphai{
+    line-height: 40px;
+    height:40px;
+    color: white;
+    float: right;
+    width:40%;
+    text-align: right;
+}
+.chacuoi .con .conphai i{
+    margin-right:20px;
+}
+._1item .layer2 ul li a:hover{
+    background-color: #003a6a;
+    
+   } 
+.chacuoi .con .conphai a:hover{
+    color:yellow;
+}
+.chacuoi .con .conphai a{
+    color:white;
+}
+.phan2 {
+   box-sizing: border-box;
+    width:1300px;
+    margin: auto;
+    justify-content: space-between;
+    
+     
+}
+/* .phan2 .phai_2 .cc{
+
+    background-color: white;
+} */
+.phan2 .trai_2{
+  float: left;
+  width:60%;
+}
+.phan2 .trai_2 img{
+    margin-top:20px;
+  float: left;
+  
+  }
+  .phan2 .phai_2{
+       width:40%;
+      float: right;
+      text-align: right;
+      margin-top:20px;
+      
+      
+  }
+  .phan2 .phai_2 .content{
+            background-color: rgb(13, 79, 155);
+       
+  float: right;
+  text-align: center;
+  box-sizing: border-box;
+  width:340px;
+  }
+  .phan2 .chinh{
+    background-color: rgb(235, 232, 232);
+    display: flex;
+  }
+.phan2 .phai_2 .content span{
+
+         font-size: 18px;
+          color:white;
+             float: left;
+             padding-left:15px;
+             box-sizing: border-box;
+             text-transform: uppercase;
+             padding-top:20px;
+             padding-bottom: 20px;
+             font-weight: bold;
+}
+
+.phan2  .chinh .phai_2 .contentduoi{
+    text-align: center;
+    float: right;
+    width:340px;
+    background-color: white;
+    box-sizing: border-box;
+   
+}
+.phan2  .chinh .phai_2 .contentduoi .contentdau{
+   width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    height:33.3%;
+}
+.phan2  .chinh .phai_2 .contentduoi .contentdau img{
+    width: 20%;
+ }
+ .phan2  .chinh .phai_2 .contentduoi .contentdau p{
+    color: rgb(13, 79, 155);
+    float: left;
+    width:80%;
+    text-align: left;
+    padding-top:10px;
+    margin-left:10px;
+    box-sizing: border-box;
+ }
+ .phan2 .chinh .phai_2 .contentcuoicung .cuoicung span{
+    font-size: 18px;
+    color:white;
+       float: left;
+       padding-left:15px;
+       box-sizing: border-box;
+       text-transform: uppercase;
+       padding-top:20px;
+       padding-bottom: 20px;
+       font-weight: bold; 
+ }
+ .phan2 .chinh .phai_2 .contentduoi .contentdau p:hover{
+  color:#fecd0b;;
+   cursor: pointer;
+   
+ }
+ .phan2 .chinh .phai_2 .contentcuoicung .cuoicung {
+    background-color: rgb(13, 79, 155);
+       margin-top:65px;
+    float: right;
+    text-align: center;
+    box-sizing: border-box;
+    width:340px;
+ }
+ .phancuoi{
+    background-color:rgb(7, 71, 145);
+    width:100%;
+    margin:auto;
+    position: relative;
+    margin-top:30px;
+ }
+ .phancuoi .cuoi {
+    width: 1530px;
+   position: absolute;
+   left:0;
+   top:0;
+  margin: auto;
+ }
+ .phancuoi .cuoi img{
+     width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  .chadau .logomenu{
+        float: left;
+        height:50px;
+        line-height:50px;
+        color:#fff;
+        cursor: pointer;
+        font-size:24px;
+        position: absolute;
+        left:20px;
+        top:10px;
+   }
+  .chadau .logomenu a{
+    color:#fff;
+    visibility: hidden;
+   
+}
+@media(max-width:810px)
+{
+       .chadau .logomenu a{
+        color:#fff;
+        visibility: visible;
+       }
+
+       .tong {
+        background-color:rgb(13, 79, 155);
+        width:100%;
+         display: block;
+       }
+          .tong .chadau{
+            background-color:rgb(13, 79, 155);
+           width:100%;
+   display: block;
+          }
+          .tong .chadau .top{
+            
+            width:100%;
+            display: block;
+ 
+           }
+           .tong .chadau .top  .phan1 i {
+
+            width:100%;
+        
+           }
+         
+           .tong .chadau .top  .phan1 {
+
+            padding-left:40px;
+            display: flex;
+           }
+           .tong .chadau .top  .phan2 {
+
+            width:100%;
+            margin-top:20px;
+            padding-left:40px;
+            margin-bottom: 20px;
+           }
+           .tong .chadau .bottom img{
+            
+            width:100%;
+            display: block;
+ 
+           }
+           .tong .chadau .bottom{
+            
+            width:100%;
+       display: block;
+           }
+           .tong .chadau .bottom img{
+                width:100px;
+                height:100px;
+                text-align: center;
+                padding-left:80px;
+           }
+           .tong .chadau .bottom span{
+            width:100%;
+            text-align: center;
+            font-size: 15px;
+            
+       }
+           .tong .chadau .end{
+            
+            width:100%;
+            display: block;
+           }
+           /* .tong .chadau .top .phan1 i{
+               text-align: center;
+               width:100%;
+               padding-left:100px;
+               box-sizing: border-box;
+           } */
+           /* .tong .chadau .top .phan1 span{
+            text-align: center;
+            width:100%;
+            padding-left:80px;
+            box-sizing: border-box;
+            margin-top:10px;
+        } */
+        /* .tong .chadau .top .phan2 i{
+            text-align: center;
+            width:100%;
+            padding-left:100px;
+            box-sizing: border-box;
+        }
+        .tong .chadau .top .phan2 span{
+            text-align: center;
+            width:100%;
+            padding-left:80px;
+            box-sizing: border-box;
+ 
+            */
+            .chacuoi{
+                display: none;
+            }
+            .chadau .end .end_list  {
+                display: block;
+                width: 100%;
+               
+            }
+            .phan2{
+                width:100%;
+              
+            }
+            .phan2 .chinh{
+                width:100%;
+              
+            }
+            .phan2 .chinh .trai_2 img{
+
+                    display: block;
+                width:100%;
+                text-align: center;
+            }
+            .phan2 .chinh .phai_2{
+                width:100%;
+                 display: block;
+            }
+            .phan2 .chinh .phai_2 .content{
+                width:100%;
+                 display: block;
+            }
+            .phan2 .chinh .phai_2 .contentduoi{
+                width:100%;
+                 display: block;
+            }
+            .phancuoi .cuoi{
+
+                width:100%;
+            }
+        }
+       
+    
